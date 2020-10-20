@@ -1,0 +1,41 @@
+body {
+  margin:0;
+  padding: 0px;
+  background-color: aqua;
+}
+
+#react-target {
+}
+
+.mainFrame {
+  display: flex;
+  /*background-color: blue;*/
+  height: 100vh;
+}
+
+.leftPanel {
+  padding: 10px;
+  position: absolute;
+	border: 1px solid;
+  right: 10px;
+  left: 10px;
+}
+
+.userList {
+  top: 10px;
+  bottom: calc(50% + 5px)
+}
+
+.chat {
+  top: calc(50% + 5px);
+  bottom: 10px;
+}
+
+.workArea {
+  width: 100%;
+  border: 1px solid;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+

@@ -1,0 +1,43 @@
+body {
+  margin:0;
+  padding: 0px;
+  background-color: aqua;
+}
+
+#react-target {
+}
+
+.mainFrame {
+  display: flex;
+  background-color: blue;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.resizablePanel {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #bbb;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.leftPanel {
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 50%;
+}
+
+.userList {
+  background-color: #999;
+}
+
+.workArea {
+  padding: 10px;
+  background-color: #ddd;
+  width: 100%;
+}
+
+.chat {
+  background-color: #777;
+}
